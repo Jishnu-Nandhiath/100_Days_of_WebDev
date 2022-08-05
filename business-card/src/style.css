@@ -4,7 +4,7 @@ body{
 
 .profile-content{
     margin-left: 42%;
-    margin-right: 37%;
+    margin-right: 35%;
     text-align: center;
 }
 
@@ -38,4 +38,44 @@ h1, h5{
     margin-top: 1%;
     border-radius: 20px 20px 0px 0px;
     padding: 0px;
+}
+
+
+.connect-button{
+    margin-top: 30px;
+    padding: 9px 13px 9px 11px;
+    width: 115px;
+    height: 34px;
+    margin-right: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+}
+
+.connect-button > i {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+#email{
+    margin-left: 5%;
+    background-color: white;
+}
+
+#linkedin{
+    background-color: #5093E2;
+    color: white;
+}
+
+.intro-headings{
+    text-align: left;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.intro-text{
+    text-align: justify;
+    color: white;
+    font-family: 'Inter', sans-serif;
 }

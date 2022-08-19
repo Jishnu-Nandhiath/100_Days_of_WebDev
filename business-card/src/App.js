@@ -4,6 +4,7 @@ import profile_photo from './images/jishnu.jpg';
 import Profile from "./components/profile"
 import ConnectButton from './components/connect-button';
 import IntroSection from './components/intro-section';
+import BottomNav from './components/social-icon';
 
 export default function App(){
     return(
@@ -12,6 +13,7 @@ export default function App(){
         <Profile/>
         <ConnectButton/>
         <IntroSection/>
+        <BottomNav/>
     </div>
     )
     

@@ -78,4 +78,31 @@ h1, h5{
     text-align: justify;
     color: white;
     font-family: 'Inter', sans-serif;
+    margin-bottom: 24px;
+}
+
+#bottom-nav{
+    width: 350px;
+    height: 64px;
+    background: #161619;
+    margin: 0px;
+    margin-left: 42%;
+    margin-right: 42%;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px 72px;
+    box-sizing: border-box;
+}
+
+.social-profile{
+    width: 25px;
+    height: 25px;
+    background: #918E9B;
+    margin-right: 25px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.social-profile:last-child{
+    margin-right: 0;
 }
